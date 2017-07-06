@@ -19,4 +19,8 @@ public class SubjectDAO {
 		}
 		return "Success";
 	}
+	
+	public SubjectEntity fetchSubjectEntity(Long id){
+		return subjectRepository.findOne(id);
+	}
 }

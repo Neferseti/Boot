@@ -19,4 +19,8 @@ public class UserDAO {
 		}
 		return "Success";
 	}
+	
+	public UserEntity fetchUserEntity(Long id){
+		return userRepository.findOne(id);
+	}
 }
