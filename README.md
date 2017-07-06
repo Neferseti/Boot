@@ -6,12 +6,15 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 
+
+
 CREATE TABLE `subject` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `subject_category` varchar(256) NOT NULL DEFAULT '',
   `subject_name` varchar(256) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 
 
 Postman Request
