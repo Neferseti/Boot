@@ -25,6 +25,7 @@ Postman Request
            
 2) For Subject
   POST    http://localhost:8080/main/subject
+            
             {
               "subjectCategory":"History",
               "subjectName":"India and its history"
